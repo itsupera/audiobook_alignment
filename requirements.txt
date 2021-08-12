@@ -1,1 +1,2 @@
 PySegmentKit==0.2.1
+afaligner==0.1.4
