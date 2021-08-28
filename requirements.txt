@@ -1,3 +1,4 @@
+aeneas==1.7.3.0
 afaligner==0.1.4
 pyjuliusalign==3.0.2
 PySegmentKit==0.2.1
