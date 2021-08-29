@@ -7,5 +7,6 @@ PySegmentKit==0.2.1
 
 # aeneas ( https://github.com/readbeyond/aeneas )
 aeneas==1.7.3.0
-# need also boto3 to use AWS Polly for TTS
+
+# need boto3 to use the AWS Polly TTS engine in aeneas and afaligner
 boto3
