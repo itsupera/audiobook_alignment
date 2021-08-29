@@ -2,7 +2,7 @@
 afaligner==0.1.4
 
 # Julius ( https://github.com/julius-speech/julius )
-pyjuliusalign==3.0.2
+pyjuliusalign==3.1.0
 PySegmentKit==0.2.1
 
 # aeneas ( https://github.com/readbeyond/aeneas )
