@@ -2,11 +2,15 @@
 afaligner==0.1.4
 
 # Julius ( https://github.com/julius-speech/julius )
-pyjuliusalign==3.1.0
+pyjuliusalign==3.1.1
 PySegmentKit==0.2.1
 
 # aeneas ( https://github.com/readbeyond/aeneas )
 aeneas==1.7.3.0
 
 # need boto3 to use the AWS Polly TTS engine in aeneas and afaligner
-boto3
+boto3==1.18.31
+
+# to create Anki deck from the sentences and their audio
+# (using a fork that enables setting the "due" field of the card, to have them in the right order
+git+git://github.com/Otter-man/genanki@43b5f2d#egg=genanki

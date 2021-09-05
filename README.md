@@ -44,6 +44,8 @@ It uses aeneas under the hood, so it worked equally well as the standalone aenea
 The only difference is that it is using fragments from an XHTML as the sentences to align.
 I had to add those fragment ids to the XHTML, as the original files did not have them.
 
+Note: if you get `RuntimeError: Both the C extension and the pure Python code failed. (Wrong arguments? Input too big?)`,
+it could happen because you did not setup your AWS credentials.
 
 Julius / pyjuliusalign
 -----------------------
